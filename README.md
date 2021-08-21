@@ -14,9 +14,6 @@ Application Code Structure
             - keeps the request validation logic
     - test
         - contains all unit test specific code
-    - sql
-        - setup.sql
-            - Contains database table schema
 - Package Dependency
     - Dev Dependency
         - Mocha, Chai & Supertest
@@ -29,9 +26,9 @@ Application Code Structure
 
 - Application Information
     - Application Code flow
-        - All opeeration will happen in the mongo collections
+        - All operation will happen in the mongo collections
     - How to Run
         - Run `npm start` to kickstart the application
     - Unit Testing
-        - Added just a sample unit test for review
+        - Added few unit test for review
         - Also we can have the unit test run on pre-commit hook, so that no bad code can go w/o passing the unit-testing audit
