@@ -28,7 +28,7 @@ const dateValidation = (keyName, position) => [
 ];
 const integerValidation = (keyName, position) => [
     getRule(keyName, position)
-    .isInt()
+    .isInt({min: 1})
     .withMessage('must be an integer value')
 ];
 
